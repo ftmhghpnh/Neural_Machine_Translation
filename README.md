@@ -1,1 +1,4 @@
 # Neural_Machine_Translation
+
+The main corpus for this assignment comes from the official records (Hansards) of the 36th Canadian Parliament, including debates from both the House of Representatives and the Senate. This corpus is available at /u/cs401/A2/data/Hansard/ and has been split into Training/ and Testing/ directories.
+This data set consists of pairs of corresponding files (*.e is the English equivalent of the French *.f) in which every line is a sentence. Here, sentence alignment has already been performed for you. That is, the nth sentence in one file corresponds to the nth sentence in its corresponding file (e.g., line n in fubar.e is aligned with line n in fubar.f). Note that this data only consists of sentence pairs; many-to-one, many-to-many, and one-to-many alignments are not included.
